@@ -70,6 +70,18 @@ my_new_car.odometer_reading = 5000
 # printing the modified odometer value which is '5000'
 my_new_car.odometer_read()
 
-#newly added line
+"""you can have as many classes in one module(file). But it should be related. You can also import specific classes 
+from a module or entire module"""
+
+# importing specific class
+from classes import Car
+
+# importing entire module
+import classes
+
+# using alias
+import classes as cls
+
+
 
 
